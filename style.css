@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Nova+Square&display=swap');
+:root{
+    background-color: rgb(29, 26, 26);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 65.2%;
+    font-family: 'Nova Square', cursive;
+}
+h2{
+    font-size: 3rem;
+    color: #fff;
+    margin-bottom: 2rem;
+    color: #7400b8;
+    text-shadow: 0px 1px 1px #fff ;
+}
+.container{
+    text-align: center;
+ position: relative;
+ width: 100vw;
+height: auto;
+margin: 0 auto;
+display: flex;
+flex-direction: column;
+padding: 2rem;
+justify-content:center;
+align-items: center;
+ max-width: 80rem;
+}
+.country{
+    overflow: hidden;
+    border-radius: 5px;
+    background-color: #e5e5e5;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+    box-shadow:0 .4rem .8rem  #fff;
+}
+.demo{
+    
+    display: flex;
+    flex-wrap: wrap;
+}
+.icon1, .icon2, .icon3{
+    font-size: 2rem;
+    margin-right: 3rem;
+}
+.icon1{
+    color: blue;
+}
+.icon2{
+    color: black;
+}
+.icon3{
+    color: rgb(57, 236, 57);
+}
+.p1{
+    text-transform: uppercase;
+    font-size: 1rem;
+    color: rgba(255, 255, 255, 0.603);
+}
+.btn{
+    height: 5rem;
+    width: 5rem;
+    border-radius: 50%;
+    outline: none;
+    border: none;
+    margin-left: .7rem;
+    background-color: rgb(29, 26, 26);
+    cursor: pointer;
+}
+.work{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 3rem;
+}
+.country__row{
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: #7400b8;
+}
+.country__img{
+    width: 100%;
+   
+}
+.country__data{
+    padding: 2rem 3rem;
+}
+.country__name{
+    font-size: 3rem;
+    color: #fca311;
+    margin-bottom: .7rem;
+}
+.country__region{
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    color: #14213d;
+}
+.text{
+    padding: 1rem;
+    width: 40rem;
+    font-size: 2.2rem;
+    border: none;
+    outline: none;
+    
+    border-radius: 10rem;
+    cursor: pointer;
+}
+.search{
+    font-size: 3rem;
+    color: #fff;
+}
+@media screen and (max-width:400px) {
+     .text{
+         width: 20rem;
+     }
+     .country{
+         width: 100%;
+     }
+}
