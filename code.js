@@ -24,7 +24,7 @@ const demo = document.querySelector('.demo');
                 </div>
             </article>
                 `;
-                demo.insertAdjacentHTML('beforeend', html)
+                demo.insertAdjacentHTML('afterend', html)
         });
     }
     document.querySelector('.btn').addEventListener('click', function(){
