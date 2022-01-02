@@ -42,8 +42,9 @@ align-items: center;
     box-shadow:0 .4rem .8rem  #fff;
 }
 .demo{
-    
     display: flex;
+    justify-content:center;
+    align-items:center;
     flex-wrap: wrap;
 }
 .icon1, .icon2, .icon3{
@@ -120,6 +121,9 @@ align-items: center;
      .text{
          width: 20rem;
      }
+    .demo{
+        padding:1rem;
+    }
      .country{
          width: 100%;
      }
